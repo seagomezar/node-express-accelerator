@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Test for the codelab this should be sny!k!!');
+  res.send('Test for the codelab this should be sny!k 2!!');
 });
 
 app.get('/health', (req, res) => {
